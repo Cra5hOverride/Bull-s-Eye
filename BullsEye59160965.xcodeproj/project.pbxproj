@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB21B372201995200B1C330 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB21B362201995200B1C330 /* AboutViewController.swift */; };
+		3FB21B3D2201A55700B1C330 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FB21B3C2201A55700B1C330 /* BullsEye.html */; };
 		3FE301F621E5F7B9000E7A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE301F521E5F7B9000E7A97 /* AppDelegate.swift */; };
 		3FE301F821E5F7B9000E7A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE301F721E5F7B9000E7A97 /* ViewController.swift */; };
-		3FE301FB21E5F7B9000E7A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE301F921E5F7B9000E7A97 /* Main.storyboard */; };
 		3FE301FD21E5F7BA000E7A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE301FC21E5F7BA000E7A97 /* Assets.xcassets */; };
 		3FE3020021E5F7BA000E7A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE301FE21E5F7BA000E7A97 /* LaunchScreen.storyboard */; };
+		3FE3020821E5FE0E000E7A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE301F921E5F7B9000E7A97 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FB21B362201995200B1C330 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3FB21B3C2201A55700B1C330 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		3FE301F221E5F7B9000E7A97 /* BullsEye59160965.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye59160965.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE301F521E5F7B9000E7A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE301F721E5F7B9000E7A97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +58,11 @@
 		3FE301F421E5F7B9000E7A97 /* BullsEye59160965 */ = {
 			isa = PBXGroup;
 			children = (
+				3FB21B3C2201A55700B1C330 /* BullsEye.html */,
 				3FE301F521E5F7B9000E7A97 /* AppDelegate.swift */,
 				3FE301F721E5F7B9000E7A97 /* ViewController.swift */,
 				3FE301F921E5F7B9000E7A97 /* Main.storyboard */,
+				3FB21B362201995200B1C330 /* AboutViewController.swift */,
 				3FE301FC21E5F7BA000E7A97 /* Assets.xcassets */,
 				3FE301FE21E5F7BA000E7A97 /* LaunchScreen.storyboard */,
 				3FE3020121E5F7BA000E7A97 /* Info.plist */,
@@ -122,9 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE3020821E5FE0E000E7A97 /* Main.storyboard in Resources */,
+				3FB21B3D2201A55700B1C330 /* BullsEye.html in Resources */,
 				3FE3020021E5F7BA000E7A97 /* LaunchScreen.storyboard in Resources */,
 				3FE301FD21E5F7BA000E7A97 /* Assets.xcassets in Resources */,
-				3FE301FB21E5F7B9000E7A97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB21B372201995200B1C330 /* AboutViewController.swift in Sources */,
 				3FE301F821E5F7B9000E7A97 /* ViewController.swift in Sources */,
 				3FE301F621E5F7B9000E7A97 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BullsEye59160965/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BullsEye59160965/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
